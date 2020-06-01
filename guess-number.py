@@ -1,6 +1,9 @@
 import random
+start = int(input('请决定随机数字範围开始值：'))
+end = int(input('请决定随机数字範围结束值'))
 
-r = random.randint(1,100)
+
+r = random.randint(start , end)
 count = 0
 while True:
 	
